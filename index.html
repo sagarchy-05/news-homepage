@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>W. News</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="nav-left"><img src="./images/logo.svg" alt="W." /></div>
+        <button
+          class="mobile-nav-toggle"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span class="visually-hidden">Menu</span>
+        </button>
+        <nav id="primary-nav" data-visible="false">
+          <ul aria-label="Primary" role="list" class="nav-list">
+            <li>Home</li>
+            <li>New</li>
+            <li>Popular</li>
+            <li>Trending</li>
+            <li>Categroies</li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="big-half">
+          <div class="bg-image"></div>
+          <div class="bright-future">The Bright <br />Future of Web 3.0?</div>
+          <div class="button-para">
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?<br />
+            <button>READ MORE</button>
+          </div>
+          <div class="three-new">
+            <span class="heading">New</span>
+            <article class="each-topic">
+              <span>Hydrogen VS Electric Cars</span><br />
+              Will hydrogen-fueled cars ever catch up to EVs?
+            </article>
+            <article class="each-topic">
+              <span>The Downsides of AI Artistry</span><br />
+              What are the possible adverse effects of on-demand AI image
+              generation?
+            </article>
+            <article class="each-topic last-topic">
+              <span>Is VC Funding Drying Up?</span><br />
+              Private funding by VC firms is down 50% YOY. We take a look at
+              what that means.
+            </article>
+          </div>
+        </section>
+        <section id="small-half">
+          <article class="last-three">
+            <div class="inside-two">
+              <img src="./images/image-retro-pcs.jpg" alt="old-pc" />
+            </div>
+            <div class="inside-two grid-col-span-2">
+              <span class="number-head">01</span><br /><span class="small-head"
+                >Reviving Retro PCs</span
+              >
+              <br />What happens when old PCs are given modern upgrades?
+            </div>
+          </article>
+          <article class="last-three">
+            <div class="inside-two">
+              <img src="./images/image-top-laptops.jpg" alt="laptops" />
+            </div>
+            <div class="inside-two grid-col-span-2">
+              <span class="number-head">02</span>
+              <br /><span class="small-head">Top 10 Laptops of 2022</span>
+              <br />Our best picks for various needs and budgets.
+            </div>
+          </article>
+          <article class="last-three">
+            <div class="inside-two">
+              <img src="./images/image-gaming-growth.jpg" alt="gaming" />
+            </div>
+            <div class="inside-two grid-col-span-2">
+              <span class="number-head">03</span>
+              <br /><span class="small-head">The Growth of Gaming</span>
+              <br />How the pandemic has sparked fresh opportunities.
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
